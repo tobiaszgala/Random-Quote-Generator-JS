@@ -100,6 +100,8 @@ function printQuote() {
     randomBackground();
 }
 
+// invoking printQuote function to display quote object
+printQuote();
 // generate quote every 10 seconds
 window.setInterval(printQuote, 10000);
 
